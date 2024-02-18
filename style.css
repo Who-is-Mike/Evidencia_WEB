@@ -1,0 +1,122 @@
+.e {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: green;
+}
+
+/* para todo lo que tenga h1 (titulos) */
+/* h1 {color: darkmagenta;} */
+
+/* este para selectores de lista */
+/* h1,.e {background-color: gray;} */
+
+.facu {
+    width: 350px;
+    height: 350px;
+    justify-content: center;
+}
+
+
+.profile-card{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: -5px -5px 25px rgba(0, 0, 0, 0.705);
+    animation: rotate 2s both;
+}
+.card{
+    height: 100%;
+    padding: 30px 40px;
+    animation: textanimate 2s both;
+    color: black;
+    font-size: 1rem;
+    justify-content: left;
+}
+
+.profile-card00{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: -5px -5px 25px rgba(0, 0, 0, 0.706);
+    animation: rotate 2s both;
+}
+.card00{
+    height: 100%;
+    padding: 30px 40px;
+    animation: textanimate 2s both;
+    color: black;
+    font-size: 1rem;
+    justify-content: left;
+}
+
+@keyframes rotate {
+    0% {
+        transform-origin: left bottom;
+        transform: none;
+        opacity: 1;
+    }
+    100% {
+        transform-origin: left bottom;
+        transform: none;
+        opacity: 1;
+    }
+}
+
+@keyframes textanimate {
+    0% {
+        transform: translateY(200px);
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.card2 {
+    width: 200px;
+    height: 220px;
+    position: relative;
+    background-color: transparent;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.card2:hover {
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+
+.front, .back {
+    height: 100%;
+    width: 100%;
+    background: white;
+    padding-top: 20px;
+    position: absolute;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    display: table-row;
+    justify-content: center;
+
+}
+
+.front {
+    background: rgb(180, 58, 170);
+    background: linear-gradient(90deg,
+                    rgba(180, 58, 170,1) 0%,
+                    rgba(200, 29, 253,1) 35%,
+                    rgba(252, 176, 69,1) 100%);
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+}
+
+.back {
+    transform: rotateY(180deg);
+    background: gray;
+}
