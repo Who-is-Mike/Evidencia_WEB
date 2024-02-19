@@ -10,6 +10,12 @@
     background-color: cornsilk;
 }
 
+.facu {
+    width: auto;
+    height: auto;
+    justify-content: center;
+}
+
 .body_carreras{
 background-color: indianred;
 }
@@ -48,11 +54,7 @@ imagen2{
 /* este para selectores de lista */
 /* h1,.e {background-color: gray;} */
 
-img.facu {
-    width: auto;
-    height: auto;
-    justify-content: center;
-}
+
 
 nav{
     color: gold;
