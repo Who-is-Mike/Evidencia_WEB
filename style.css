@@ -16,6 +16,7 @@ background-color: indianred;
 
 body.body_evento{
     background-image: url("C:\Users\DELL\Documents\Evidencias_DWEB\facpya1.jpg");
+    background-attachment: fixed;
 }
 
 #body_articulo {
