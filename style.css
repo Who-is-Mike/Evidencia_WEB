@@ -15,6 +15,13 @@
     justify-content: center;
 }
 
+header {
+    background-color: grey;
+    color: blanchedalmond;
+    padding: 20px 0;
+    text-align: center;
+}
+
 .body_contacto{
     background-color: peru;
 }
