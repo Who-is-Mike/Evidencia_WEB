@@ -10,13 +10,12 @@
     background-color: cornsilk;
 }
 
-#body_carreras{
+.body_carreras{
 background-color: indianred;
 }
 
-.body_evento{
+body.body_evento{
     background-image: url("C:\Users\DELL\Documents\Evidencias_DWEB\facpya1.jpg");
-    background-color: darkgoldenrod;
 }
 
 #body_articulo {
