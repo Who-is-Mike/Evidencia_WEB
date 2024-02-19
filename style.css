@@ -3,6 +3,13 @@
     color: green;
 }
 
+.cal {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: crimson;
+    background-color: cornsilk;
+}
+
 #body_articulo {
     font-family: Arial, sans-serif;
     margin: 20px;
@@ -12,18 +19,18 @@
     margin: 0 auto;
 }
 img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px; /* Ajusta este valor según lo redondeado que desees los bordes */
+    max-width: 630px;
+    height: 1200px;
+    border-radius: 10px; 
 }
 imagen1{
-    max-width: 100%;
-    height: auto;
+    max-width: 630px;
+    height: 1200px;
 }
 
 imagen2{
-    max-width: 100%;
-    height: auto;
+    max-width: 630px;
+    height: 1200px;
     border-radius: 25px;
 }
 /* para todo lo que tenga h1 (titulos) */
