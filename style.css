@@ -10,13 +10,13 @@
 /* h1,.e {background-color: gray;} */
 
 .facu {
-    width: 350px;
-    height: 350px;
+    width: auto;
+    height: auto;
     justify-content: center;
 }
 
 header {
-    background-color: grey;
+    background-color: darkslategray;
     color: blanchedalmond;
     padding: 20px 0;
     text-align: center;
