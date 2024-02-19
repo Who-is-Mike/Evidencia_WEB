@@ -3,6 +3,29 @@
     color: green;
 }
 
+#body_articulo {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+#articulo {
+    max-width: 800px;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Ajusta este valor según lo redondeado que desees los bordes */
+}
+imagen1{
+    max-width: 100%;
+    height: auto;
+}
+
+imagen2{
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
 /* para todo lo que tenga h1 (titulos) */
 /* h1 {color: darkmagenta;} */
 
@@ -20,7 +43,7 @@ nav{
 }
 
 header {
-    background-color: darkslategray;
+    background-color: cadetblue;
     color: blanchedalmond;
     padding: 20px 0;
     text-align: center;
