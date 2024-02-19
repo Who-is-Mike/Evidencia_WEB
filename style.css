@@ -3,11 +3,19 @@
     color: green;
 }
 
-.cal {
+#cal {
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
     color: crimson;
     background-color: cornsilk;
+}
+
+#body_carreras{
+background-color: indianred;
+}
+
+.body_eventos{
+    background-image: url("C:\Users\DELL\Documents\Evidencias_DWEB\facpya1.jpg");
 }
 
 #body_articulo {
@@ -20,17 +28,17 @@
 }
 img {
     max-width: 630px;
-    height: 1200px;
+    height: 700px;
     border-radius: 10px; 
 }
 imagen1{
     max-width: 630px;
-    height: 1200px;
+    height: 700px;
 }
 
 imagen2{
     max-width: 630px;
-    height: 1200px;
+    height: 700px;
     border-radius: 25px;
 }
 /* para todo lo que tenga h1 (titulos) */
